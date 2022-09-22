@@ -39,7 +39,7 @@ export default function App() {
           path="/"
           element={
             <Screen image="/First Page.png">
-              <Button to="/bluebackground" x="500" y="530" w="150" h="55" />
+              <Button to="/bluebackground" x="700" y="500" w="120" h="35" />
             </Screen>
           }
         />
