@@ -35,11 +35,11 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route 
+        <Route
           path="/"
           element={
             <Screen image="/First Page.png">
-              <Button to="/bluebackground" x="700" y="500" w="120" h="35" />
+              <Button to="/bluebackground" x="800" y="500" w="120" h="35" />
             </Screen>
           }
         />
@@ -52,12 +52,12 @@ export default function App() {
             </Screen>
           }
         />
-         <Route
+        <Route
           path="/startingpage"
           element={
             <Screen image="/startingpage_.png">
               <Button to="/michaelsp" x="195" y="275" w="110" h="25" />
-             <Button to="/vorschlag" x="190" y="130" w="210" h="25" /> 
+              <Button to="/vorschlag" x="190" y="130" w="210" h="25" />
             </Screen>
           }
         />
@@ -69,7 +69,7 @@ export default function App() {
             </Screen>
           }
         />
-         <Route
+        <Route
           path="/vorschlag"
           element={
             <Screen image="/Vorschlag.jpg">
@@ -77,7 +77,7 @@ export default function App() {
             </Screen>
           }
         />
-         <Route
+        <Route
           path="/"
           element={
             <Screen image="/index.jpg">
