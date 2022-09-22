@@ -48,15 +48,16 @@ export default function App() {
           path="/bluebackground"
           element={
             <Screen image="/bluebackground.png" back="/">
-              <Button to="/startingpage" x="105" y="530" w="150" h="55" />
+              <Button to="/startingpage" x="680" y="530" w="150" h="55" />
             </Screen>
           }
         />
          <Route
           path="/startingpage"
           element={
-            <Screen image="/startingpage.png">
-              <Button to="/michaelsp" x="105" y="530" w="150" h="55" />
+            <Screen image="/startingpage_.png">
+              <Button to="/michaelsp" x="195" y="275" w="110" h="25" />
+             <Button to="/vorschlag" x="190" y="130" w="210" h="25" /> 
             </Screen>
           }
         />
@@ -64,6 +65,22 @@ export default function App() {
           path="/michaelsp"
           element={
             <Screen image="/michaelsp.png">
+              <Button to="/intro-1" x="105" y="530" w="150" h="55" />
+            </Screen>
+          }
+        />
+         <Route
+          path="/vorschlag"
+          element={
+            <Screen image="/Vorschlag.jpg">
+              <Button to="/startingpage" x="105" y="530" w="150" h="55" />
+            </Screen>
+          }
+        />
+         <Route
+          path="/"
+          element={
+            <Screen image="/index.jpg">
               <Button to="/intro-1" x="105" y="530" w="150" h="55" />
             </Screen>
           }
