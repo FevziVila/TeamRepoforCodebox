@@ -7,7 +7,9 @@ body {
   background-color: black;
   height: 100vh;
 }
-
+.firstpage {
+  width: 150px;
+}
 .col {
   display: flex;
   flex-direction: column;
@@ -17,7 +19,9 @@ body {
   display: flex;
   flex-direction: row;
 }
-
+.size {
+  width: 130%;
+}
 .App {
   font-family: sans-serif;
   display: flex;

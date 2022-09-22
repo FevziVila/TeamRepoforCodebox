@@ -35,15 +35,39 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route
+        <Route 
           path="/"
           element={
             <Screen image="/First Page.png">
-              <Button to="/intro-1" x="105" y="530" w="150" h="55" />
+              <Button to="/bluebackground" x="500" y="530" w="150" h="55" />
             </Screen>
           }
         />
         <Route />
+        <Route
+          path="/bluebackground"
+          element={
+            <Screen image="/bluebackground.png" back="/">
+              <Button to="/startingpage" x="105" y="530" w="150" h="55" />
+            </Screen>
+          }
+        />
+         <Route
+          path="/startingpage"
+          element={
+            <Screen image="/startingpage.png">
+              <Button to="/michaelsp" x="105" y="530" w="150" h="55" />
+            </Screen>
+          }
+        />
+        <Route
+          path="/michaelsp"
+          element={
+            <Screen image="/michaelsp.png">
+              <Button to="/intro-1" x="105" y="530" w="150" h="55" />
+            </Screen>
+          }
+        />
         <Route
           path="/"
           element={
